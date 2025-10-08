@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ascendant AML — Australian AML Expertise & SaaS Portal</title>
+  <meta name="description" content="Australian AML professional with 10+ years’ experience. Real-time monitoring, automated screening & reporting, and institutional risk assessment SaaS." />
+  <meta property="og:title" content="Ascendant AML — Australian AML Expertise & SaaS Portal" />
+  <meta property="og:description" content="Establish compliance confidence. AUSTRAC-aligned advisory and an upcoming AML platform built for institutions." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com.au/" />
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    :root{
+      --bg:#0b1f3a; --ink:#101828; --muted:#667085; --card:#ffffff; --line:#e5e7eb;
+      --accent:#16a34a; --accent-ink:#052e16; --warn:#f59e0b; --page:#f8fafc;
+      --radius:16px; --shadow:0 6px 24px rgba(2,6,23,.08);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Inter,Arial,sans-serif;color:var(--ink);background:var(--page)}
+    a{color:var(--bg);text-decoration:none}
+    .wrap{max-width:1120px;margin:auto;padding:24px}
+    header.sticky{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:50}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    nav a{padding:10px 12px;border-radius:10px;font-weight:600}
+    nav a.cta{background:var(--bg);color:#fff}
+    /* Hero */
+    .hero{background:linear-gradient(120deg,#0b1f3a, #1f3558 60%);color:#fff;padding:80px 0}
+    .hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:32px}
+    .kicker{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.22);font-size:13px}
+    h1{font-size:44px;line-height:1.1;margin:.6rem 0 1rem}
+    .sub{font-size:18px;color:#e6edf6;max-width:46ch}
+    .btn{display:inline-block;margin-top:18px;padding:12px 16px;border-radius:12px;font-weight:700}
+    .btn.primary{background:#fff;color:#0b1f3a}
+    .btn.secondary{border:1px solid rgba(255,255,255,.35);color:#fff}
+    .badge{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--accent-ink);padding:8px 10px;border-radius:12px;font-weight:700}
+    /* Feature cards */
+    .grid{display:grid;gap:20px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:22px}
+    .card h3{margin:.2rem 0 .6rem}
+    .chip{display:inline-flex;align-items:center;gap:8px;font-size:12px;padding:6px 10px;border-radius:999px;border:1px solid var(--line);background:#fff}
+    .list{margin:8px 0 0 0;padding-left:18px;color:var(--muted)}
+    .section{padding:56px 0}
+    .muted{color:var(--muted)}
+    /* Profile */
+    .profile{display:grid;grid-template-columns:140px 1fr;gap:20px;align-items:start}
+    .avatar{width:140px;height:140px;border-radius:16px;background:#e2e8f0}
+    /* Form */
+    form{display:grid;gap:12px}
+    input, textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fff}
+    button{padding:12px 16px;border:0;border-radius:12px;background:var(--accent);color:#fff;font-weight:800;cursor:pointer}
+    button:disabled{opacity:.7;cursor:not-allowed}
+    /* Footer */
+    footer{padding:32px 0;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+    /* Responsive */
+    @media (max-width: 920px){
+      .hero .wrap{grid-template-columns:1fr}
+      .grid.cols-3{grid-template-columns:1fr}
+      .profile{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header class="sticky">
+    <div class="wrap">
+      <nav>
+        <a href="#top" style="font-weight:800">Ascendant AML</a>
+        <div>
+          <a href="#platform">Platform</a>
+          <a href="#profile">Profile</a>
+          <a href="#waitlist" class="cta">Join waitlist</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div>
+          <span class="kicker">AUSTRALIAN AML • 10+ YEARS</span>
+          <h1>Compliance clarity, delivered.<br/>Real-time AML for institutions.</h1>
+          <p class="sub">Advisory grounded in Australian regulation, plus an upcoming SaaS portal that brings <strong>live monitoring</strong>, <strong>automated screening & reporting</strong>, and <strong>institutional risk assessment</strong> into one place.</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <a class="btn primary" href="#platform">See the platform</a>
+            <a class="btn secondary" href="#waitlist">Request early access</a>
+          </div>
+        </div>
+        <div>
+          <div class="badge">● Live alerts are on</div>
+          <div class="card" style="margin-top:14px">
+            <strong>Today’s signal:</strong><br/>
+            Escalated pattern across <em>sanctions screening</em> &amp; <em>cash thresholds</em>.  
+            <div class="muted" style="margin-top:8px">Demo visualization — production UI coming soon.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="platform" class="section">
+      <div class="wrap">
+        <h2 style="margin-top:0">The AML Platform (beta)</h2>
+        <p class="muted">Built for AU institutions. Designed to reduce manual effort, increase assurance, and keep you ahead of risk.</p>
+        <div class="grid cols-3" style="margin-top:16px">
+          <article class="card">
+            <div class="chip">⚡ Real-time Alerts</div>
+            <h3>Monitoring Dashboard</h3>
+            <ul class="list">
+              <li>Continuous surveillance with priority scoring</li>
+              <li>Instant email/SMS/webhook notifications</li>
+              <li>Audit-ready event trails</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="chip">🧾 Automation</div>
+            <h3>Screening & Reporting</h3>
+            <ul class="list">
+              <li>Batch & streaming watchlist screening</li>
+              <li>One-click AUSTRAC-aligned reports</li>
+              <li>Error-proof templates & exports</li>
+            </ul>
+          </article>
+          <article class="card">
+            <div class="chip">📊 Institutional</div>
+            <h3>Risk Assessment</h3>
+            <ul class="list">
+              <li>Customer/product/country risk scoring</li>
+              <li>Board-level dashboards & heatmaps</li>
+              <li>Explainable models for decisions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="profile" class="section">
+      <div class="wrap">
+        <h2 style="margin-top:0">Professional Profile</h2>
+        <div class="profile card">
+          <div class="avatar" aria-hidden="true"></div>
+          <div>
+            <!-- Paste your structured profile here -->
+            <p><strong>10+ years in AML (Australia).</strong> Advisory across banks, payments, and fintech, aligning programs to AUSTRAC expectations, delivering remediation, and operational uplift.</p>
+            <p class="muted">Qualifications, memberships, notable engagements, speaking & media — add as bullet points here.</p>
+            <p><a href="#" aria-label="Download CV">Download CV (PDF)</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="waitlist" class="section">
+      <div class="wrap">
+        <h2 style="margin-top:0">Request Early Access</h2>
+        <div class="grid">
+          <div class="card">
+            <form action="https://formspree.io/f/REPLACE_WITH_YOUR_ID" method="POST">
+              <input type="text" name="name" placeholder="Your name" required />
+              <input type="email" name="email" placeholder="Work email" required />
+              <input type="text" name="org" placeholder="Organisation" />
+              <textarea name="note" rows="4" placeholder="What challenges are you solving?"></textarea>
+              <label class="muted" style="display:flex;gap:8px;align-items:center">
+                <input type="checkbox" required /> I agree to be contacted about the AML portal.
+              </label>
+              <button type="submit">Join the waitlist</button>
+            </form>
+            <p class="muted" style="margin-top:10px">We use privacy-first analytics and never sell data.</p>
+          </div>
+          <div class="card">
+            <h3>Contact</h3>
+            <p class="muted">Prefer email? Reach out at <a href="mailto:hello@yourdomain.com.au">hello@yourdomain.com.au</a></p>
+            <p class="muted">ABN: 12 345 678 901</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>© <span id="y"></span> Your Business Name. All rights reserved.</div>
+      <div class="muted">General information only and not legal advice.</div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <!-- Cloudflare Web Analytics snippet goes here when enabled -->
+</body>
+</html>
